@@ -1,0 +1,81 @@
+.form--container{
+    background:linear-gradient(to left,#FAA215,#F9E2BC);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:3px solid #F9E2BC;
+    border-radius: 10px;
+    position: relative;
+}
+#title{
+    color:white;
+    font-size:34px;
+    text-decoration: underline;
+    padding:35px;
+    text-align: center;
+}
+.form{
+    max-width: 100%;
+    font-size: 20px;
+    padding:40px;
+}
+.register--input{
+    font-size:30px;
+    border:4px solid #F9E2BC;
+    border-radius: 15px;
+    padding: 12px;
+    background-color: white;
+}
+.register--input .MuiInputBase-input {
+    padding: 11px;
+    color: black; 
+}
+.register--input .MuiOutlinedInput-root {
+    border-radius: 10px; 
+    background-color: white
+}
+.register--input .MuiOutlinedInput-root fieldset {
+    border-color: transparent; 
+}
+.register--input .MuiOutlinedInput-root:hover fieldset {
+    border-color:transparent;
+}
+.buton{
+    border:4px solid #F9E2BC;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #FEF9E7 ;
+    color:#f7b752 ;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color:white;
+}
+.link{
+    margin-top: 35px;
+    
+}
+.link span{
+    font-size: 20px;
+    color:white;
+    text-decoration: underline;
+
+}
+.connect{
+    font-size:23px ;
+    color:orangered;
+    margin-top:30px;
+}
+.error-msg{
+    font-size: 20px;
+    position:fixed;
+    word-break: break-all;
+    overflow-wrap: break-word;
+    white-space:normal;
+    width:670px;
+    margin-top:20px;
+}

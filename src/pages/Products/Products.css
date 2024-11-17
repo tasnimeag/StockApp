@@ -1,0 +1,28 @@
+#products-title{
+    color:#767373;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+.btn{
+    background-color: #FFBC33;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 10px;
+    width:35%;
+    font-weight: bold;
+    border:none;
+    padding: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:#D9D7D7 ;
+}
+.cell{
+    color:#c6c61b;
+    font-size: 17px;
+}

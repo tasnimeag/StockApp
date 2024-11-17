@@ -1,0 +1,13 @@
+#clients-title{
+    color:#767373;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+.header-cell{
+    color:#c6c61b ;
+    font-size:17px ;
+    font-weight: bold;
+}
+

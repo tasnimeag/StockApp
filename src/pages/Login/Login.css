@@ -1,0 +1,65 @@
+.toolbar{
+    background-color: #fcc56e;
+    height:100px;
+    
+}
+.formulaire{
+    width: 100% ;
+    justify-content:center;
+    align-items: center;
+}
+
+.form-container{
+    background:linear-gradient(to left,#FAA215,#F9E2BC);
+    border:3px solid #F9E2BC;
+    border-radius: 10px;
+    position: relative;
+}
+.form{
+    max-width:100%;
+    padding: 40px;
+    font-size: 20px;
+}
+.form-container h1{
+    padding:35px;
+    color:white;
+    font-size:34px;
+    text-decoration: underline;
+    text-align: center;
+}
+.form--input .MuiInputBase-input {
+    padding: 11px;
+    color: black; 
+}
+.form--input .MuiOutlinedInput-root {
+    border-radius: 10px; 
+    background-color: white
+}
+.form--input .MuiOutlinedInput-root fieldset {
+    border-color: transparent; 
+}
+.form--input .MuiOutlinedInput-root:hover fieldset {
+    border-color:transparent;
+}
+.form--submit{
+    display: flex;
+    border:4px solid #F9E2BC;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #FEF9E7 ;
+    color:#f7b752 ;
+}
+.form--submit:hover{
+    cursor:pointer;
+    background-color:white;
+}
+.lien{
+    font-size: 23px;
+    color: orangered;
+    margin-top:30px;
+}
+.msg{
+    font-size:20px;
+}

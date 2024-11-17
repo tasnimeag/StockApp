@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background-color: #FCF3CF;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 250px;
+}
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Container h3{
+    color:orange;
+    font-size: 19px;
+    text-decoration: underline;
+}
+.Container p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Calibri';
+    
+}
+.Container-text,.contact,.about-container{
+    padding:10px;
+}
+.CR{
+    font-size:15px;
+    margin-top: 25px;
+    color: grey;
+}
+.CR p{
+    margin-top: 4px;
+}
+
+    
+
+
+
+    

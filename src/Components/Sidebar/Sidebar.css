@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.sidebar-ul{
+    list-style: none;
+    height:auto;
+    width:100%;
+}
+.row{
+    display:flex;
+    height:102px;
+    width:100%;
+    flex-direction: row;
+    justify-content:start;
+    align-items: center;
+    
+}
+.row:hover{
+    cursor:pointer;
+    background-color:#FCF3CF;
+}
+.row #active{
+    background-color: orange;
+}
+.row #icon{
+    margin-left: 20px;
+    display:grid;
+    place-items: center;
+    flex-shrink:0;
+}
+#icon svg{
+    font-size: 40px;
+    fill:#FFC300;
+}
+.row .title{
+    font-size:22px;
+    color:black;
+    text-decoration: none;
+    flex-grow:0;
+    margin-left: 30px;
+}
+
+
